@@ -10,11 +10,11 @@ asyncpg
 # SQLAlchemy for async ORM
 SQLAlchemy
 
-# Pydantic v2 (settings management separated)
-pydantic
+# Pydantic v2 (with email validator)
+pydantic[email]
 pydantic-settings
 
-# For password hashing (later)
+# Password hashing
 passlib[bcrypt]
 
 # JWT handling
@@ -23,7 +23,7 @@ python-jose[cryptography]
 # Alembic for migrations
 alembic
 
-# Optional: environment variable loader
+# Environment variable loader
 python-dotenv
 
 # Testing
