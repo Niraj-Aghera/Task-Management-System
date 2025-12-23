@@ -1,0 +1,32 @@
+# FastAPI framework
+fastapi
+
+# ASGI server
+uvicorn[standard]
+
+# Async PostgreSQL driver
+asyncpg
+
+# SQLAlchemy for async ORM
+SQLAlchemy
+
+# Pydantic v2 (settings management separated)
+pydantic
+pydantic-settings
+
+# For password hashing (later)
+passlib[bcrypt]
+
+# JWT handling
+python-jose[cryptography]
+
+# Alembic for migrations
+alembic
+
+# Optional: environment variable loader
+python-dotenv
+
+# Testing
+pytest
+pytest-asyncio
+httpx
