@@ -9,7 +9,7 @@ class TaskCreate(BaseModel):
 class TaskUpdate(BaseModel):
     title: str | None = None
     description: str | None = None
-    is_completed: bool | None = Field(None, alias="completed")
+    is_completed: bool | None = None
 
 
 class TaskResponse(BaseModel):
